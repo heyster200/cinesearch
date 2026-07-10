@@ -1,0 +1,34 @@
+name: imdb_app
+description: Lightweight IMDb alternative using TMDb API
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Networking
+  dio: ^5.4.0
+  # Local database
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  # Image caching
+  cached_network_image: ^3.3.0
+  # State management
+  provider: ^6.1.1
+  # Shared preferences
+  shared_preferences: ^2.2.2
+  # UI
+  shimmer: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
